@@ -42,6 +42,7 @@
                  Max number of commits    Max number of contributors      Max commits per day
   ```                 
 ## References:
+   - https://github.com/QuodAI/challenges/issues/3
    - http://www.gharchive.org/
    - https://developer.github.com/v3/activity/events/types/
    - https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html
