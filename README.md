@@ -3,6 +3,15 @@
 - Dependencies
   * json-simple-1.1: Parse String to JSONObjects easily
   * GZIPInputStream: Read .gz file
+  
+- Java
+  * OpenJDK 11
+  
+- IDE
+  * Eclipse EE Version: 2019-12 (4.14.0) - Build id: 20191212-1212
+ 
+- Maven
+  * Apache Maven 3.6.3
  
  ## How to run:
    ``` java -jar app.jar [start Time] [end Time]``` 
