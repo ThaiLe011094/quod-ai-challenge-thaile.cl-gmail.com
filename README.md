@@ -14,15 +14,19 @@
   * Apache Maven 3.6.3
  
  ## How to run:
-   ``` java -jar app.jar [start Time] [end Time]``` 
+   ``` java -jar quodai/app.jar [start Time] [end Time]``` 
    
-  example
+  example if you start in quod-ai-challenge-thaile.cl-gmail.com directory
+   
+   ``` java -jar quodai/app.jar 2019-08-01T00:00:00Z 2019-09-01T00:00:00Z```
+   
+   or in quod-ai folder
    
    ``` java -jar app.jar 2019-08-01T00:00:00Z 2019-09-01T00:00:00Z```
    
  ## Improve in future:
   + Make it simpler
-  + Add more feature metric
+  + More feature metrics
   + Optimize for faster output
   
  ## Concept of process:
@@ -37,6 +41,7 @@
   Health score = ---------------------- + --------------------------  + -----------------------
                  Max number of commits    Max number of contributors      Max commits per day
   ```                 
-## Reference:
+## References:
    - http://www.gharchive.org/
    - https://developer.github.com/v3/activity/events/types/
+   - https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html
